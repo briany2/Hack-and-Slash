@@ -2,13 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This code is used to detect the player object, then move the enemy object towards the player object.
+// Created by Brian Yu.
 public class EnemyMovement : MonoBehaviour {
     private GameObject wayPoint;
     private Vector3 wayPointPos;
     private float speed = 2.5f;
     // Finds the player object
 	void Start () {
-        wayPoint = GameObject.Find("some_kind_of_witch_thing");
+        wayPoint = GameObject.Find("witch");
 	}
 	
 	// Update is called once per frame
