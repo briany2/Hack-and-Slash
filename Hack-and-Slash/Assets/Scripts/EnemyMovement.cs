@@ -10,7 +10,7 @@ public class EnemyMovement : MonoBehaviour {
     private float speed = 2.5f;
     // Finds the player object
 	void Start () {
-        wayPoint = GameObject.Find("witch");
+        wayPoint = GameObject.Find("PlayerWitch");
 	}
 	
 	// Update is called once per frame

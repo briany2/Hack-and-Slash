@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour {
 
     public float speed = 4f;
     public float timer = 0f - 3;
-    public GameObject leftFireball;
+    public GameObject LeftFireball;
     public GameObject wayPoint;
     //Used to prevent an infinite amount of fireballs.
     public int mana = 100;
@@ -19,7 +19,7 @@ public class Movement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        wayPoint = GameObject.Find("witch");
+        wayPoint = GameObject.Find("PlayerWitch");
     }
 
     // Update is called once per frame
@@ -51,10 +51,10 @@ public class Movement : MonoBehaviour {
                 Vector2 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Vector2 myPos = new Vector2(transform.position.x, transform.position.y);
                 Vector2 direction = target - myPos;
-                // Used to rotate the Projectile in the correct position and should it in the correct direction.
+                // Used to rotate the Projectile in the correct position and shoot it in the correct direction.
                 direction.Normalize();
                 Quaternion rotation = Quaternion.Euler(0, 0, Mathf.Atan2(direction.x, -direction.y) * Mathf.Rad2Deg + 90);
-                GameObject projectile = Instantiate(leftFireball, wayPoint.transform.position, rotation);
+                GameObject projectile = Instantiate(LeftFireball, wayPoint.transform.position, rotation);
                 projectile.GetComponent<Rigidbody2D>().velocity = direction * speed;
                 fireballCounter = !fireballCounter;
             }

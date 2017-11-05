@@ -14,11 +14,11 @@ public class DamageEnemy : MonoBehaviour {
 		
 	}
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collider.gameObject.tag == "Enemy")
         {
-            Destroy(collision.gameObject);
+            Destroy(collider.gameObject);
             Destroy(gameObject);
         }    
     }

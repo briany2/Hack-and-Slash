@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 guid: 814da6020d5f1af4d90058540980c63c
-timeCreated: 1507490501
+timeCreated: 1509858284
 licenseType: Free
 MonoImporter:
+  externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - LeftFireball: {fileID: 1411009866413268, guid: ca94674cd2e2c5847a355b0f259d0cbf,
+      type: 2}
+  - wayPoint: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
