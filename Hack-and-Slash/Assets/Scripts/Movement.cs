@@ -6,7 +6,7 @@ using UnityEngine;
 // Created by: Brian Yu
 public class Movement : MonoBehaviour {
 
-    public float speed = 4f;
+    public float speed = 3f;
     public float timer = 0f - 3;
     public GameObject leftFireball;
     public GameObject wayPoint;
