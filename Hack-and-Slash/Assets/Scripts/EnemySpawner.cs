@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    //    public GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy");
+    // This code is used to spawn enemies at random positions a set distance away from the player.
+    // Created by Brian Yu
+    // Maybe use this line when instantiating other enemies.
+    // public GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy");
     public GameObject frog, wayPoint;
     float rand;
     Vector2 whereToSpawn;
@@ -15,7 +18,7 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         wayPoint = GameObject.FindGameObjectWithTag("Player");
-        frog = (GameObject)Instantiate(Resources.Load("EnemyFrog"));
+        frog = (GameObject)Instantiate(Resources.Load("FrogEnemy"));
     }
 
     // Update is called once per frame
