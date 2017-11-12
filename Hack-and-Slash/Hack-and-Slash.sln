@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hack-and-Slash", "Hack-and-Slash.csproj", "{FCBB51FD-FBE4-505F-6694-2C9A3B725FB2}"
 EndProject
 Global
