@@ -3,16 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// This class allows an enemy to be damaged
+// Created by Brian Yu
 public class DamageEnemy : MonoBehaviour {
-	// Use this for initialization
-	void Start () {
-        
-    }
-
-    // Update is called once per frame
-    void Update () {
-		
-	}
 
     void OnTriggerEnter2D(Collider2D collider)
     {

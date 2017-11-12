@@ -2,6 +2,8 @@
 using UnityEngine.UI;
 using System.Collections;
 
+// This class manages the player's score.
+// Created by: Brian Yu
 public class ScoreManager : MonoBehaviour
 {
     public static int score;        // The player's score.
