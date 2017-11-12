@@ -17,10 +17,9 @@ public class DamageEnemy : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Enemy")
-        {
-            Destroy(collider.gameObject);
-            Destroy(gameObject);
-            ScoreManager.score++;
+		{
+			Destroy (gameObject);
+			collider.gameObject.SendMessage ("TakeDamage", 25);
         }
     }
 }
