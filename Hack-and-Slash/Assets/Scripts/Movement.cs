@@ -5,16 +5,22 @@ using UnityEngine;
 // This class controls the player movement and attacks, including shooting projectiles.
 // Created by: Brian Yu
 public class Movement : MonoBehaviour {
-
     public float speed = 4f;
     public float timer = 0f - 3;
     public GameObject leftFireball;
     public GameObject wayPoint;
+    private AudioSource source;
+    public AudioClip fireballSound;
     //Used to prevent massive amounts of fireballs at once
     public bool fireballCounter = true;
 
     Animator playerAnimator;
     int animDirectionHash;
+
+    void Awake()
+    {
+        source = GetComponent<AudioSource>();    
+    }
 
     // Use this for initialization
     void Start()
@@ -81,6 +87,7 @@ public class Movement : MonoBehaviour {
         {
             if (fireballCounter)
             {
+                source.PlayOneShot(fireballSound, 1);
                 // Obtains and Tracks the Player object.
                 Vector2 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Vector2 myPos = new Vector2(transform.position.x, transform.position.y);

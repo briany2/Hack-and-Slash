@@ -14,6 +14,7 @@ public class PlayerHealth : MonoBehaviour
     public Image DamageImage;
     public float flashSpeed = 5f;
     public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
+    public AudioClip gameOver;
 
     Animator playerAnimator;
     int damagehash;
