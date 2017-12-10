@@ -7,7 +7,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour {
     private GameObject wayPoint;
     private Vector3 wayPointPos;
-    private float speed = 2.5f;
+    private float speed = 3f;
     // Finds the player object
 	void Start () {
         wayPoint = GameObject.Find("PlayerWitch");

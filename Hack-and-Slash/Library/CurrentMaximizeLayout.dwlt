@@ -23,7 +23,11 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 3922
+=======
+  controlID: 255
+>>>>>>> eyeballEnemy
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -49,19 +53,28 @@ MonoBehaviour:
     x: 407
     y: 92
     width: 960
+<<<<<<< HEAD
     height: 551
+=======
+    height: 558
+>>>>>>> eyeballEnemy
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     m_HBaseRangeMin: -480
     m_HBaseRangeMax: 480
+<<<<<<< HEAD
     m_VBaseRangeMin: -267
     m_VBaseRangeMax: 267
+=======
+    m_VBaseRangeMin: -270
+    m_VBaseRangeMax: 270
+>>>>>>> eyeballEnemy
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -79,9 +92,15 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 960
+<<<<<<< HEAD
       height: 534
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 480, y: 267}
+=======
+      height: 541
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 480, y: 270.5}
+>>>>>>> eyeballEnemy
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -89,14 +108,24 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -480
+<<<<<<< HEAD
       y: -267
       width: 960
       height: 534
+=======
+      y: -270.5
+      width: 960
+      height: 541
+>>>>>>> eyeballEnemy
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 960, y: 551}
+=======
+  m_LastWindowPixelSize: {x: 960, y: 558}
+>>>>>>> eyeballEnemy
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -123,7 +152,11 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 3923
+=======
+  controlID: 233
+>>>>>>> eyeballEnemy
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,11 +176,19 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1369
+<<<<<<< HEAD
     height: 572
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
   controlID: 3924
+=======
+    height: 579
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
+  vertical: 0
+  controlID: 234
+>>>>>>> eyeballEnemy
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,9 +206,15 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 405
+<<<<<<< HEAD
     height: 572
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+    height: 579
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> eyeballEnemy
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -198,12 +245,21 @@ MonoBehaviour:
     x: 0
     y: 92
     width: 403
+<<<<<<< HEAD
     height: 551
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d43b0000
     m_LastClickedID: 15316
     m_ExpandedIDs: 76dafdff7a7efeffbeabfeff62b1feff22b2feff2ab3feff32b3feffb0beffff4ac8fffff6c8ffff0ecaffff12caffff18fcffff00000000222d0000542d0000e236000008370000623b0000
+=======
+    height: 558
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 22290000
+    m_LastClickedID: 0
+    m_ExpandedIDs: def9ffff00000000
+>>>>>>> eyeballEnemy
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -243,9 +299,15 @@ MonoBehaviour:
     x: 405
     y: 0
     width: 964
+<<<<<<< HEAD
     height: 572
   m_MinSize: {x: 204, y: 221}
   m_MaxSize: {x: 4004, y: 4021}
+=======
+    height: 579
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> eyeballEnemy
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -276,10 +338,17 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 407
     y: 92
     width: 960
     height: 551
+=======
+    x: 381
+    y: 92
+    width: 1148
+    height: 552
+>>>>>>> eyeballEnemy
   m_SceneLighting: 1
   lastFramingTime: 0
   m_2DMode: 1
@@ -315,9 +384,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 1380.5775
     speed: 2
     m_Value: 1380.5775
+=======
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+>>>>>>> eyeballEnemy
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -350,10 +425,17 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 407
     y: 92
     width: 960
     height: 551
+=======
+    x: 381
+    y: 92
+    width: 1148
+    height: 552
+>>>>>>> eyeballEnemy
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,11 +461,16 @@ MonoBehaviour:
     x: 407
     y: 92
     width: 960
+<<<<<<< HEAD
     height: 551
+=======
+    height: 558
+>>>>>>> eyeballEnemy
   m_ViewPositions:
     m_KeySerializationHelper:
     - {fileID: 1107554796764191502, guid: 76d7f2046bec4ff459f445fc51a1b0bc, type: 2}
     - {fileID: 1107343392812064864, guid: 548f7adb36548654a91af3796b6a744f, type: 2}
+<<<<<<< HEAD
     m_ValueSerializationHelper:
     - {x: 526, y: 274.40002}
     - {x: 792, y: 270.6}
@@ -394,6 +481,16 @@ MonoBehaviour:
   - m_Target: {fileID: 1107343392812064864, guid: 548f7adb36548654a91af3796b6a744f,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
+=======
+    - {fileID: 1107516283143790428, guid: 90d3444542fc63c4093476f2110de4ce, type: 2}
+    m_ValueSerializationHelper:
+    - {x: 526, y: 274.40002}
+    - {x: 792, y: 234.40002}
+    - {x: 528, y: 281.60004}
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 0}
+  m_BreadCrumbs: []
+>>>>>>> eyeballEnemy
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
   blendTreeGraph: {fileID: 0}
@@ -419,18 +516,30 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 572
     width: 1369
     height: 375
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
+=======
+    y: 579
+    width: 1369
+    height: 368
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> eyeballEnemy
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 13}
   - {fileID: 14}
   m_Selected: 0
+<<<<<<< HEAD
   m_LastSelected: 2
+=======
+  m_LastSelected: 1
+>>>>>>> eyeballEnemy
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -454,9 +563,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 664
     width: 1367
     height: 354
+=======
+    y: 671
+    width: 1367
+    height: 347
+>>>>>>> eyeballEnemy
   m_SearchFilter:
     m_NameFilter: 
     m_ClassNames: []
@@ -479,9 +594,15 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: ca260000
     m_LastClickedID: 9930
     m_ExpandedIDs: 000000007226000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: d4280000
+    m_LastClickedID: 10452
+    m_ExpandedIDs: 00000000d428000000ca9a3bffffff7f
+>>>>>>> eyeballEnemy
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -509,7 +630,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007226000000ca9a3bffffff7f
+=======
+    m_ExpandedIDs: 00000000d428000000ca9a3bffffff7f
+>>>>>>> eyeballEnemy
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -534,8 +659,13 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: d43b0000
     m_LastClickedInstanceID: 15316
+=======
+    m_SelectedInstanceIDs: 22290000
+    m_LastClickedInstanceID: 10530
+>>>>>>> eyeballEnemy
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000cc260000
     m_RenameOverlay:
@@ -587,9 +717,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 664
     width: 1367
     height: 354
+=======
+    y: 671
+    width: 1367
+    height: 347
+>>>>>>> eyeballEnemy
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -613,9 +749,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 664
     width: 1367
     height: 354
+=======
+    y: 671
+    width: 1367
+    height: 347
+>>>>>>> eyeballEnemy
   m_AnimEditor: {fileID: 0}
   m_Locked: 0
 --- !u!114 &15
@@ -636,8 +778,13 @@ MonoBehaviour:
     y: 0
     width: 551
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
+=======
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> eyeballEnemy
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}

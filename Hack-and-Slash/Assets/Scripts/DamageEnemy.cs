@@ -1,18 +1,29 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-// This class allows an enemy to be damaged
-// Created by Brian Yu
 public class DamageEnemy : MonoBehaviour {
+<<<<<<< HEAD
     public AudioClip damageSound;
     private AudioSource source;
     Animator playerAnimator;
+=======
+	// Use this for initialization
+	void Start () {
+        
+    }
+
+    // Update is called once per frame
+    void Update () {
+		
+	}
+>>>>>>> eyeballEnemy
 
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.tag == "Enemy")
+<<<<<<< HEAD
         {
             source = GetComponent<AudioSource>();
             source.PlayOneShot(damageSound,0.5f);
@@ -21,6 +32,11 @@ public class DamageEnemy : MonoBehaviour {
             gameObject.transform.position = new Vector2(99999,99999);
             Destroy(gameObject, damageSound.length);
             ScoreManager.score++;
+=======
+		{
+			Destroy (gameObject);
+			collider.gameObject.SendMessage ("TakeDamage", 25);
+>>>>>>> eyeballEnemy
         }
     }
 }
