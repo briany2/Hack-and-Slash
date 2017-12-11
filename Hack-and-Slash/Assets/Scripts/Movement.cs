@@ -38,12 +38,34 @@ public class Movement : MonoBehaviour {
         // Moves Character Left-Right with (A and D keys, or Left and Right Arrows)
         if (horAxis > 0.5f || horAxis < -0.5f)
         {
-            transform.Translate(new Vector3(horAxis * speed * Time.smoothDeltaTime, 0f, 0f));
+            if (horAxis * speed * Time.smoothDeltaTime < 0 && transform.position.x < -22)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else if (horAxis * speed * Time.smoothDeltaTime > 0 && transform.position.x > 22)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else
+            {
+                transform.Translate(new Vector3(horAxis * speed * Time.smoothDeltaTime, 0f, 0f));
+            }
         }
         // Moves Character Up-Down with (W and S keys, or Up and Down Arrows)
         if (vertAxis > 0.5f || vertAxis < -0.5f)
         {
-            transform.Translate(new Vector3(0f, vertAxis * speed * Time.smoothDeltaTime, 0f));
+            if (vertAxis * speed * Time.smoothDeltaTime < 0 && transform.position.y < -22)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else if (vertAxis * speed * Time.smoothDeltaTime > 0 && transform.position.y > 20)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else
+            {
+                transform.Translate(new Vector3(0f, vertAxis * speed * Time.smoothDeltaTime, 0f));
+            }
         }
 
         // Set animation direction

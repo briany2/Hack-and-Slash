@@ -3,32 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour {
-
-	public int startingHealth = 50;
+    public AudioSource source;
+    public int startingHealth = 50;
 	public int currentHealth;
-
 	bool isDead;
 
-	// Use this for initialization
-	void Start () {
-		currentHealth = startingHealth;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Use this for initialization
+    void Start () {
+        source = GetComponent<AudioSource>();
+        currentHealth = startingHealth;
+    }
 
-	}
+    // Update is called once per frame
+    void Update () {
+
+    }
 
 	public void TakeDamage (int amount) {
 		currentHealth -= amount;
-		if (currentHealth <= 0 && !isDead) {
+        source.Play();
+        if (currentHealth <= 0 && !isDead) {
 			Death ();
 		}
-	}
+    }
 
-	void Death () {
+    void Death () {
 		isDead = true;
-		Object.Destroy (this.gameObject);
+        gameObject.transform.position = new Vector2(999999f, 999999f);
+        //anim.Play("FrogDeath");
+        Object.Destroy (this.gameObject, 1.5f);
 		ScoreManager.score++;
 	}
 }

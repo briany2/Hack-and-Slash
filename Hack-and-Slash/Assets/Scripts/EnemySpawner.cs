@@ -19,7 +19,7 @@ public class EnemySpawner : MonoBehaviour
     {
         wayPoint = GameObject.FindGameObjectWithTag("Player");
         frog = (GameObject)Instantiate(Resources.Load("FrogEnemy"));
-		eyeball = (GameObject)Instantiate (Resources.Load ("EyeballEnemy"));
+		eyeball = (GameObject)Instantiate(Resources.Load ("EyeballEnemy"));
     }
 
     // Update is called once per frame

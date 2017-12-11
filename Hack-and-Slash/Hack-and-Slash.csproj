@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\MenuCtrl.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Quit.cs" />
     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
   </ItemGroup>

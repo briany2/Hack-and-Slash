@@ -11,13 +11,6 @@ public class DamageEnemy : MonoBehaviour {
     {
         if (collider.gameObject.tag == "Enemy")
         {
-            source = GetComponent<AudioSource>();
-            source.PlayOneShot(damageSound,0.5f);
-            playerAnimator.Play("FrogDeath");
-            Destroy(collider.gameObject);
-            gameObject.transform.position = new Vector2(99999,99999);
-            Destroy(gameObject, damageSound.length);
-            ScoreManager.score++;
 			Destroy (gameObject);
 			collider.gameObject.SendMessage ("TakeDamage", 25);
         }
