@@ -48,8 +48,6 @@ These lines can include <<<<<HEAD and -------, along with a few others.
 
 You may need to delete these lines yourself.
 
-Also, the code may duplicate from old code as well. Please check or ask on our Slack for more information.
-
 https://cs196projects.slack.com/messages/C77TY8FA9/files/F77QRU2TC/
 
 0. Open Unity
