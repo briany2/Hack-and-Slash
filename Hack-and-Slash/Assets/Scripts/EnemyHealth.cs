@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Enemy Health system(On contact)
+//Written by Cheng Hang
 public class EnemyHealth : MonoBehaviour {
     public AudioSource source;
     public int startingHealth = 50;
@@ -30,7 +31,6 @@ public class EnemyHealth : MonoBehaviour {
     void Death () {
 		isDead = true;
         gameObject.transform.position = new Vector2(999999f, 999999f);
-        //anim.Play("FrogDeath");
         Object.Destroy (this.gameObject, 1.5f);
 		ScoreManager.score++;
 	}

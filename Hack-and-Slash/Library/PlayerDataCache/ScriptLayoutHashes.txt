@@ -115,7 +115,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.VR.WSA.SpatialMappingRenderer
 96389afb96a0ba04fd47d1d6658b6f23 Assembly-CSharp.dll:.EyeballMovement
 32e8fe00b63ed946490b898f6024a2f2 Facebook.Unity.Settings.dll:Facebook.Unity.Settings.FacebookSettings
-8e04b9d9dbbe0d6d3438072963002840 Assembly-CSharp.dll:.EnemyHealth
+50626105b570c87961f76329d9f44720 Assembly-CSharp.dll:.EnemyHealth
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -147,4 +147,3 @@ fd743e98e4d754d29f09d7a519dc6878 Assembly-CSharp.dll:.EnemySpawner
 03f5ae1487a0a3fe3711cdfb6558c904 Assembly-CSharp.dll:.DamageEnemy
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MenuControl
 2f1f417658cf537ca2e6e66f0808efcd Assembly-CSharp.dll:.EnemyAttack
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Quit

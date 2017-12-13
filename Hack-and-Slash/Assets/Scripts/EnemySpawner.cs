@@ -1,13 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// This code is used to spawn enemies at random positions a set distance away from the player.
+// Created by Brian Yu
+// Maybe use this line when instantiating other enemies.
 public class EnemySpawner : MonoBehaviour
 {
-    // This code is used to spawn enemies at random positions a set distance away from the player.
-    // Created by Brian Yu
-    // Maybe use this line when instantiating other enemies.
-    // public GameObject[] enemies = GameObject.FindGameObjectsWithTag("enemy");
     public GameObject frog, eyeball, wayPoint;
     float rand;
     Vector2 whereToSpawn;

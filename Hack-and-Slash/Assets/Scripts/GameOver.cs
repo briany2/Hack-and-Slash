@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// This is used to play the game over clip when player dies.
+// Created by: Brian Yu
 public class GameOver : MonoBehaviour {
 
     public PlayerHealth playerHealth;

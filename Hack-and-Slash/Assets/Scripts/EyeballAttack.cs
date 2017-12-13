@@ -1,11 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Eyeball attack system (On contact and laser shot)
+// Written by Cheng Hang
 public class EyeballAttack : MonoBehaviour {
-
-	//Eyeball attack system (On contact and laser shot)
-	//Written by Cheng Hang
 	public float timeBetweenAttacks = 0.5f;
 	public float timeBetweenShots = 2.5f;
 	public int attackDamage = 10;

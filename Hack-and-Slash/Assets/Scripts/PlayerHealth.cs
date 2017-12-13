@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+// Health system based on classic HP bar
+// Written by Cheng Hang
 public class PlayerHealth : MonoBehaviour
 {
-
-    //Health system based on classic HP bar
-    //Written by Cheng Hang
     public int startingHealth = 100;
     public int currentHealth;
     public Slider HealthSlider;
