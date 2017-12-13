@@ -5,16 +5,22 @@ using UnityEngine;
 // This class controls the player movement and attacks, including shooting projectiles.
 // Created by: Brian Yu
 public class Movement : MonoBehaviour {
-
     public float speed = 4f;
     public float timer = 0f - 3;
     public GameObject leftFireball;
     public GameObject wayPoint;
+    private AudioSource source;
+    public AudioClip fireballSound;
     //Used to prevent massive amounts of fireballs at once
     public bool fireballCounter = true;
 
     Animator playerAnimator;
     int animDirectionHash;
+
+    void Awake()
+    {
+        source = GetComponent<AudioSource>();    
+    }
 
     // Use this for initialization
     void Start()
@@ -26,18 +32,45 @@ public class Movement : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate () {
+        
+
+    }
+
+    void Update()
+    {
         float horAxis = Input.GetAxisRaw("Horizontal");
         float vertAxis = Input.GetAxisRaw("Vertical");
-
         // Moves Character Left-Right with (A and D keys, or Left and Right Arrows)
-        if (horAxis > 0.5f || horAxis < -0.5f)
+        if (horAxis > 0.0f || horAxis < -0.0f)
         {
-            transform.Translate(new Vector3(horAxis * speed * Time.smoothDeltaTime, 0f, 0f));
+            if (horAxis * speed * Time.fixedDeltaTime < 0 && transform.position.x < -22)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else if (horAxis * speed * Time.fixedDeltaTime > 0 && transform.position.x > 22)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else
+            {
+                transform.position += new Vector3(horAxis * speed * Time.fixedDeltaTime, 0f, 0f);
+            }
         }
         // Moves Character Up-Down with (W and S keys, or Up and Down Arrows)
-        if (vertAxis > 0.5f || vertAxis < -0.5f)
+        if (vertAxis > 0.0f || vertAxis < -0.0f)
         {
-            transform.Translate(new Vector3(0f, vertAxis * speed * Time.smoothDeltaTime, 0f));
+            if (vertAxis * speed * Time.fixedDeltaTime < 0 && transform.position.y < -22)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else if (vertAxis * speed * Time.fixedDeltaTime > 0 && transform.position.y > 20)
+            {
+                transform.Translate(new Vector3(0f, 0f, 0f));
+            }
+            else
+            {
+                transform.Translate(new Vector3(0f, vertAxis * speed * Time.fixedDeltaTime, 0f));
+            }
         }
 
         // Set animation direction
@@ -45,11 +78,11 @@ public class Movement : MonoBehaviour {
 
         if (Mathf.Abs(horAxis) > Mathf.Abs(vertAxis))
         {
-            if (horAxis > 0.5f)
+            if (horAxis > 0.0f)
             {
                 playerAnimator.SetInteger(animDirectionHash, 3);
             }
-            else if (horAxis < -0.5f)
+            else if (horAxis < -0.0f)
             {
                 playerAnimator.SetInteger(animDirectionHash, 2);
             }
@@ -57,30 +90,26 @@ public class Movement : MonoBehaviour {
         }
         else
         {
-            if (vertAxis > 0.5f)
+            if (vertAxis > 0.0f)
             {
                 playerAnimator.SetInteger(animDirectionHash, 1);
             }
-            else if (vertAxis < -0.5f)
+            else if (vertAxis < -0.0f)
             {
                 playerAnimator.SetInteger(animDirectionHash, 0);
             }
         }
-
-    }
-
-    void Update()
-    {
         timer += Time.deltaTime;
-        if (timer > 0.5)
+        if (timer > 0.5f)
         {
-            timer = 0;
+            timer = 0.25f;
             if (!fireballCounter) { fireballCounter = true; }
         }
         if (Input.GetMouseButtonDown(0))
         {
             if (fireballCounter)
             {
+                source.PlayOneShot(fireballSound, 1);
                 // Obtains and Tracks the Player object.
                 Vector2 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
                 Vector2 myPos = new Vector2(transform.position.x, transform.position.y);

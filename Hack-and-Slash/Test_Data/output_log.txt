@@ -1,0 +1,208 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7654
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\System.dll (this message is harmless)
+Platform assembly: D:\Users\Brian Yu\Documents\GitHub\Hack-and-Slash\Hack-and-Slash\Test_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.039 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.150406 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.907263 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 479.
+Total: 1.169140 ms (FindLiveObjects: 0.076216 ms CreateObjectMapping: 0.037561 ms MarkObjects: 0.538621 ms  DeleteObjects: 0.514188 ms)
+
+ArgumentException: The Object you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original) [0x00000] in <filename unknown>:0 
+  at EnemySpawner.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EyeballAttack.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EyeballAttack.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EyeballAttack.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EyeballAttack.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EyeballAttack.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.264319 ms
+
+Unloading 101 unused Assets to reduce memory usage. Loaded Objects now: 351.
+Total: 1.254108 ms (FindLiveObjects: 0.079498 ms CreateObjectMapping: 0.015680 ms MarkObjects: 0.162279 ms  DeleteObjects: 0.996285 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.428125 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 479.
+Total: 0.319088 ms (FindLiveObjects: 0.017139 ms CreateObjectMapping: 0.013857 ms MarkObjects: 0.163737 ms  DeleteObjects: 0.123988 ms)
+
+ArgumentException: The Object you want to instantiate is null.
+  at UnityEngine.Object.CheckNullArgument (System.Object arg, System.String message) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Object.Instantiate (UnityEngine.Object original) [0x00000] in <filename unknown>:0 
+  at EnemySpawner.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+Default clip could not be found in attached animations list.
+ 
+(Filename:  Line: 395)
+
+The animation state FrogDeath could not be played because it couldn't be found!
+Please attach an animation clip with the name 'FrogDeath' or call this function only for existing animations.
+ 
+(Filename:  Line: 418)
+
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 6ad8 -> priority: 1 
+  Thread -> id: 4414 -> priority: 1 
+  Thread -> id: 61f0 -> priority: 1 
+  Thread -> id: 4ab0 -> priority: 1 

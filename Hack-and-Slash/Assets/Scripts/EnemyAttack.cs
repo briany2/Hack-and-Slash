@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Enemy attack system (On contact)
+// Written by Cheng Hang
 public class EnemyAttack : MonoBehaviour {
-
-	//Enemy attack system (On contact)
-	//Written by Cheng Hang
 	public float timeBetweenAttacks = 0.5f;
 	public int attackDamage = 10;
 
